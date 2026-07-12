@@ -499,6 +499,68 @@ button {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid var(--border);
+    padding: 1rem 1.25rem;
+    gap: 0.75rem;
+  }
+
+  /* top block: avatar + name row, then horizontal nav */
+  .sidebar > div:first-child {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    column-gap: 0.9rem;
+    row-gap: 0.25rem;
+  }
+
+  .sidebar-avatar {
+    width: 48px;
+    height: 48px;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+    grid-row: 1 / span 2;
+  }
+
+  .sidebar-name {
+    font-size: 1rem;
+    align-self: end;
+  }
+
+  .sidebar-role {
+    margin-top: 0;
+    align-self: start;
+  }
+
+  /* nav spans full width, wraps so all items stay visible */
+  .sidebar-nav {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+    gap: 0.4rem;
+  }
+
+  .nav-item {
+    flex: 0 0 auto;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border);
+  }
+
+  .nav-item.active {
+    border-color: var(--accent);
+  }
+
+  /* footer: compact horizontal row */
+  .sidebar-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.9rem;
+  }
+
+  .download-resume,
+  .theme-toggle {
+    margin-top: 0;
+    padding: 0.35rem 0.55rem;
   }
 
   .content-body {
