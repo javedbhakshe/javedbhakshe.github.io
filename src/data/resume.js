@@ -2,7 +2,7 @@ export const profile = {
   name: "Javed Bhakshey",
   title: "Senior Software Developer",
   summary:
-    "Senior Front-End Developer (10+ years) with strong full stack capabilities — deep expertise in ReactJS and NextJS architecture, plus 3+ years designing RESTful APIs with NodeJS, MySQL, and AWS",
+    "Senior Software Developer (10+ years) with strong full stack capabilities — deep expertise in ReactJS and NextJS architecture, plus 3+ years designing RESTful APIs with NodeJS, MySQL, and AWS",
   email: "javedbhakshey123@gmail.com",
   linkedin: "https://www.linkedin.com/in/javed-bhakshey-a95a2ba1/",
   location: "Dapoli, Ratnagiri, Maharashtra, India - 415716",
@@ -133,6 +133,7 @@ export const skills = [
       "Redux",
       "JavaScript",
       "TypeScript",
+      "VueJS",
       "HTML5",
       "CSS",
     ],
