@@ -1,6 +1,6 @@
 export const profile = {
   name: "Javed Bhakshey",
-  title: "Full Stack Developer",
+  title: "Senior Software Developer",
   summary:
     "Senior Front-End Developer (10+ years) with strong full stack capabilities — deep expertise in ReactJS and NextJS architecture, plus 3+ years designing RESTful APIs with NodeJS, MySQL, and AWS",
   email: "javedbhakshey123@gmail.com",
