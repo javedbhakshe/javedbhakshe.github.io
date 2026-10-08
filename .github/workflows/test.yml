@@ -1,0 +1,12 @@
+name: Test GitHub Actions
+on:
+  push:
+    branches: [actions]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run tests
+        run: echo "Running tests... hiii"
